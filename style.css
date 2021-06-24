@@ -365,6 +365,14 @@ header .img img {
   max-width: 459px;
   max-height: 497px;
 }
+@media (max-width: 499px) {
+  header .content h1 {
+    line-height: 64px;
+    font-size: 45px; 
+    letter-spacing: -0.2px;
+    font-weight: 600;
+  }
+}
 
 @media (max-width: 767px) {
   header .content {
@@ -592,7 +600,7 @@ header .img img {
 }
 
 
-@media (min-width: 500px) { 
+@media (max-width: 666px) { 
   .outcomes-content {
     margin-top: 0px;
     padding-bottom: 20px;
@@ -859,6 +867,30 @@ header .img img {
 
 .next-step button:hover{
   background-color: rgb(5, 59 , 134);
+}
+
+@media (max-width:499px){
+  .next-step{
+    padding: 0 0 10px;
+  }
+
+  .next-step .image {
+    width: 80%;
+    margin-left: 10%;
+  }
+  .next-step .image img{
+    width: 100%;
+  }
+
+  .next-step .text h3{
+    font-size: 25px;
+    line-height: 1.5;
+  }
+
+  .next-step .text p{
+    font-size: 20px;
+  }
+
 }
 
 @media (max-width:991px) { 
